@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.home-layout{
+	min-height: 95vh;
+	max-height: 95vh;
+	height: 95vh;
+	display: flex;
+}
+.left-main{
+	    width: 40%;
+    float: left;
+    background: linear-gradient(45deg, #1a7df9, #4ad0b7);
+    padding: 20px 60px;
+ height: 110%;
+}
+
+.left-main .logo img{
+	width: 50%;
+}
+.left-main .animated-title{
+	    margin-top: 30px;
+}
+.left-main .animated-title h1{
+	color: #fff;
+	margin: 0;
+}
+.left-main .animated-title h1 p{
+	margin: 0;
+}
+.left-main .description{
+	    color: #fff;
+    width: 70%;
+    padding: 15px 0;
+}
+.left-main .page-form{
+	    width: 68%;
+    background-color: #004da3;
+    border-radius: 5px;
+    padding: 3px 11px;
+}
+.left-main .page-form p{
+	margin: 0;
+	color: #fff;
+	margin-bottom: 2px;
+}
+.left-main .page-form form {
+	    display: flex;
+    align-items: center;
+}
+.left-main .page-form form input{
+	width: 345px;
+    padding: 10px 5px;
+    height: 40px;
+}
+.left-main .page-form form button{
+	    padding: 4px 16px;
+    border: 0;
+    margin-left: -5px;
+    background: linear-gradient(45deg, #00a1ff, #ffffffd1);
+    height: 40px;
+}
+.left-main .page-form form button .fa{
+	color: #fff;
+	font-size: 25px;
+}
+.left-main .app-store-img{
+    margin-top: 25px;
+}
+.left-main .app-store-img img{
+	    width: 29%;
+}
+.left-main .footer-text{
+	margin-top: 50px;
+}
+.left-main .footer-text p{
+	margin: 0;
+	color: #fff;
+	font-size: 10px;
+}
+
+
+.right-main{width: 50%;}
+.right-main .image-right img{
+	width: 550px;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+.separate-bg{
+	height: 100%;
+	position: absolute;
+	left: 35%;
+	}
+.separate-bg img{
+	height: 111%;
+}
+
+
+@media screen and (max-width: 840px) {
+  
+  .home-layout{
+flex-direction: column;
+    height: 150vh;
+  }
+  .left-main{
+  	    padding: 10px 24px;
+    width: 86%;
+            height: 144%;
+  }
+ .separate-bg{
+ 	display: none;
+ }
+  .right-main .image-right img{
+  	       width: 55%;
+  }
+.left-main .logo img {
+    width: 100%;
+}
+.left-main .description {
+    width: 99%;
+    padding: 6px 0;
+}
+.left-main .page-form {
+    width: 93%;
+}
+
+.left-main .app-store-img {
+       margin-top: 75%;
+    text-align: center;
+}
+.image-right {
+    position: absolute;
+    bottom: -94px;
+}
+.left-main .app-store-img img {
+    width: 65%;
+}
+.left-main .footer-text {
+    margin-top: 26px;
+    text-align: center;
+}
+.right-main .image-right img {
+    width: 55%;
+    margin-left: 79px;
+}
+}
+/* For ipad*/
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  
+  .home-layout{
+flex-direction: coloum;
+    height: 200vh;
+  }
+  .left-main{
+  	    padding: 10px 24px;
+    width: 95%;
+            height: auto;
+  }
+ .separate-bg{
+ 	display: none;
+ }
+  .right-main .image-right img{
+  	       width: 100%;
+  }
+.left-main .logo img {
+    width: 100%;
+}
+.left-main .description {
+    width: 99%;
+    padding: 6px 0;
+}
+.left-main .page-form {
+    width: 93%;
+}
+
+.left-main .app-store-img {
+       margin-top: 75%;
+    text-align: center;
+}
+.image-right {
+    position: absolute;
+    bottom: -150px;
+    padding: 63px;
+}
+.left-main .app-store-img img {
+    width: 65%;
+}
+.left-main .footer-text {
+    margin-top: 26px;
+    text-align: center;
+}
+.right-main .image-right img {
+    width: 55%;
+    margin-left: 94px;
+    margin-bottom: -5px;
+}
+}
+/* For Surface Duo */
+@media screen and (min-device-width : 450px) and (max-device-width : 600px) and (orientation : portrait) {
+  
+  .home-layout{
+flex-direction: coloum;
+    height: 200vh;
+  }
+  .left-main{
+  	    padding: 10px 24px;
+    width: 95%;
+            height: auto;
+  }
+ .separate-bg{
+ 	display: none;
+ }
+  .right-main .image-right img{
+  	       width: 100%;
+  }
+.left-main .logo img {
+    width: 100%;
+}
+.left-main .description {
+    width: 99%;
+    padding: 6px 0;
+}
+.left-main .page-form {
+    width: 93%;
+}
+
+.left-main .app-store-img {
+       margin-top: 75%;
+    text-align: center;
+}
+.image-right {
+    position: absolute;
+    bottom: -150px;
+    padding: 30px;
+}
+.left-main .app-store-img img {
+    width: 65%;
+}
+.left-main .footer-text {
+    margin-top: 26px;
+    text-align: center;
+}
+.right-main .image-right img {
+    width: 55%;
+    margin-left: 94px;
+    margin-bottom: -92px;
+}
+}
+
+
